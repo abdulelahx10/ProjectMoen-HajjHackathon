@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5021B18B21121D2D0080C013 /* ReportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5021B18A21121D2D0080C013 /* ReportsViewController.swift */; };
+		5021B18D21121F560080C013 /* ReportCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5021B18C21121F560080C013 /* ReportCell.swift */; };
+		5021B18F21126EDC0080C013 /* NewReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5021B18E21126EDC0080C013 /* NewReportViewController.swift */; };
+		5021B191211289D80080C013 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5021B190211289D80080C013 /* MapViewController.swift */; };
+		5021B19321134FDB0080C013 /* testViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5021B19221134FDB0080C013 /* testViewController.swift */; };
+		52424C2DAACEB88653909DCA /* Pods_Moen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8482ACA9BD1D63EC658E93B3 /* Pods_Moen.framework */; };
+		5B0D12112111C6B6000DD80F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0D12102111C6B6000DD80F /* AppDelegate.swift */; };
+		5B0D12132111C6B6000DD80F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0D12122111C6B6000DD80F /* ViewController.swift */; };
+		5B0D12162111C6B6000DD80F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B0D12142111C6B6000DD80F /* Main.storyboard */; };
+		5B0D12182111C6B8000DD80F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B0D12172111C6B8000DD80F /* Assets.xcassets */; };
+		5B0D121B2111C6B8000DD80F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B0D12192111C6B8000DD80F /* LaunchScreen.storyboard */; };
+		5B2582E12111F52100283C82 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B2582E02111F52100283C82 /* GoogleService-Info.plist */; };
+		5B2582E32111F75600283C82 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2582E22111F75600283C82 /* Data.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F4C143C48448717BC22C85D /* Pods-Moen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moen.release.xcconfig"; path = "Pods/Target Support Files/Pods-Moen/Pods-Moen.release.xcconfig"; sourceTree = "<group>"; };
+		2AA063F69DD674F57DF679A9 /* Pods-Moen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Moen/Pods-Moen.debug.xcconfig"; sourceTree = "<group>"; };
+		5021B18A21121D2D0080C013 /* ReportsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsViewController.swift; sourceTree = "<group>"; };
+		5021B18C21121F560080C013 /* ReportCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportCell.swift; sourceTree = "<group>"; };
+		5021B18E21126EDC0080C013 /* NewReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewReportViewController.swift; sourceTree = "<group>"; };
+		5021B190211289D80080C013 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		5021B19221134FDB0080C013 /* testViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testViewController.swift; sourceTree = "<group>"; };
+		5B0D120D2111C6B6000DD80F /* Moen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B0D12102111C6B6000DD80F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B0D12122111C6B6000DD80F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B0D12152111C6B6000DD80F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B0D12172111C6B8000DD80F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B0D121A2111C6B8000DD80F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B0D121C2111C6B8000DD80F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B2582E02111F52100283C82 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5B2582E22111F75600283C82 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		8482ACA9BD1D63EC658E93B3 /* Pods_Moen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Moen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B0D120A2111C6B6000DD80F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52424C2DAACEB88653909DCA /* Pods_Moen.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B0D12042111C6B6000DD80F = {
+			isa = PBXGroup;
+			children = (
+				5B0D120F2111C6B6000DD80F /* Moen */,
+				5B0D120E2111C6B6000DD80F /* Products */,
+				BD41957137C6F2B70909F6AD /* Pods */,
+				B7C4165D2D78FC049FCE7193 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5B0D120E2111C6B6000DD80F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B0D120D2111C6B6000DD80F /* Moen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B0D120F2111C6B6000DD80F /* Moen */ = {
+			isa = PBXGroup;
+			children = (
+				5B0D12102111C6B6000DD80F /* AppDelegate.swift */,
+				5021B19221134FDB0080C013 /* testViewController.swift */,
+				5021B18A21121D2D0080C013 /* ReportsViewController.swift */,
+				5021B18C21121F560080C013 /* ReportCell.swift */,
+				5021B18E21126EDC0080C013 /* NewReportViewController.swift */,
+				5B0D12122111C6B6000DD80F /* ViewController.swift */,
+				5B2582E22111F75600283C82 /* Data.swift */,
+				5021B190211289D80080C013 /* MapViewController.swift */,
+				5B2582DF2111ECDB00283C82 /* Supporting Files */,
+			);
+			path = Moen;
+			sourceTree = "<group>";
+		};
+		5B2582DF2111ECDB00283C82 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B0D12142111C6B6000DD80F /* Main.storyboard */,
+				5B0D12192111C6B8000DD80F /* LaunchScreen.storyboard */,
+				5B0D12172111C6B8000DD80F /* Assets.xcassets */,
+				5B0D121C2111C6B8000DD80F /* Info.plist */,
+				5B2582E02111F52100283C82 /* GoogleService-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B7C4165D2D78FC049FCE7193 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8482ACA9BD1D63EC658E93B3 /* Pods_Moen.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD41957137C6F2B70909F6AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AA063F69DD674F57DF679A9 /* Pods-Moen.debug.xcconfig */,
+				0F4C143C48448717BC22C85D /* Pods-Moen.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B0D120C2111C6B6000DD80F /* Moen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B0D121F2111C6B8000DD80F /* Build configuration list for PBXNativeTarget "Moen" */;
+			buildPhases = (
+				8858DB782FF49125B586E2C3 /* [CP] Check Pods Manifest.lock */,
+				5B0D12092111C6B6000DD80F /* Sources */,
+				5B0D120A2111C6B6000DD80F /* Frameworks */,
+				5B0D120B2111C6B6000DD80F /* Resources */,
+				95B7740A5AA8DDEDCD74AA23 /* [CP] Embed Pods Frameworks */,
+				F67499C738444659C70C77EC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Moen;
+			productName = Moen;
+			productReference = 5B0D120D2111C6B6000DD80F /* Moen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B0D12052111C6B6000DD80F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = ETAR;
+				TargetAttributes = {
+					5B0D120C2111C6B6000DD80F = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 5B0D12082111C6B6000DD80F /* Build configuration list for PBXProject "Moen" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B0D12042111C6B6000DD80F;
+			productRefGroup = 5B0D120E2111C6B6000DD80F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B0D120C2111C6B6000DD80F /* Moen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B0D120B2111C6B6000DD80F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B0D121B2111C6B8000DD80F /* LaunchScreen.storyboard in Resources */,
+				5B0D12182111C6B8000DD80F /* Assets.xcassets in Resources */,
+				5B0D12162111C6B6000DD80F /* Main.storyboard in Resources */,
+				5B2582E12111F52100283C82 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8858DB782FF49125B586E2C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Moen-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95B7740A5AA8DDEDCD74AA23 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Moen/Pods-Moen-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ARCL/ARCL.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ARCL.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Moen/Pods-Moen-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F67499C738444659C70C77EC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Moen/Pods-Moen-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Moen/Pods-Moen-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B0D12092111C6B6000DD80F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5021B18B21121D2D0080C013 /* ReportsViewController.swift in Sources */,
+				5B0D12132111C6B6000DD80F /* ViewController.swift in Sources */,
+				5021B19321134FDB0080C013 /* testViewController.swift in Sources */,
+				5B2582E32111F75600283C82 /* Data.swift in Sources */,
+				5021B18F21126EDC0080C013 /* NewReportViewController.swift in Sources */,
+				5B0D12112111C6B6000DD80F /* AppDelegate.swift in Sources */,
+				5021B18D21121F560080C013 /* ReportCell.swift in Sources */,
+				5021B191211289D80080C013 /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5B0D12142111C6B6000DD80F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B0D12152111C6B6000DD80F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B0D12192111C6B8000DD80F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B0D121A2111C6B8000DD80F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B0D121D2111C6B8000DD80F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B0D121E2111C6B8000DD80F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B0D12202111C6B8000DD80F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AA063F69DD674F57DF679A9 /* Pods-Moen.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7YP9VNEHY;
+				INFOPLIST_FILE = Moen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.etar.Moen12;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B0D12212111C6B8000DD80F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F4C143C48448717BC22C85D /* Pods-Moen.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7YP9VNEHY;
+				INFOPLIST_FILE = Moen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.etar.Moen12;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B0D12082111C6B6000DD80F /* Build configuration list for PBXProject "Moen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B0D121D2111C6B8000DD80F /* Debug */,
+				5B0D121E2111C6B8000DD80F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B0D121F2111C6B8000DD80F /* Build configuration list for PBXNativeTarget "Moen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B0D12202111C6B8000DD80F /* Debug */,
+				5B0D12212111C6B8000DD80F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B0D12052111C6B6000DD80F /* Project object */;
+}
