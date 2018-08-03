@@ -84,7 +84,9 @@ class MapViewController: UIViewController , CLLocationManagerDelegate{
         locationManager.startUpdatingLocation()
     }
 
-    
+    override func viewDidAppear(_ animated: Bool) {
+        locationManager.requestWhenInUseAuthorization()
+    }
     override func viewWillAppear(_ animated: Bool) {
         self.navigationController?.setNavigationBarHidden(true, animated: animated)
     }

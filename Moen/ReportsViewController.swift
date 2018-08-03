@@ -108,7 +108,7 @@ class ReportsViewController: UIViewController, UITableViewDelegate , UITableView
             self.removeReport(WithId: self.reportsList[indexPath.row].id)
             print(self.reportsList[indexPath.row].id)
         }
-        
+        cell?.selectionStyle = .none
         return cell!
     }
     
